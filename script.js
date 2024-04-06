@@ -7,6 +7,8 @@ const showMore = document.querySelector('.showmore');
 
 button.addEventListener('click', ()=>{
     let finalData = null;
+    main.innerHTML = " ";
+    
     search();
 
 })
